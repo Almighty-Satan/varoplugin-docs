@@ -2,6 +2,7 @@
 slug: /
 sidebar_position: 1
 sidebar_label: Varo Plugin
+description: The Varo Plugin documentation
 ---
 
 <!---
