@@ -4,7 +4,8 @@
 	"name": "VaroPlugin Documentation",
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:1-22-bookworm",
 
-	"postStartCommand": "npm run start",
+	"postCreateCommand": "yarn install",
+	"postStartCommand": "yarn start",
 
 	"remoteUser": "root",
 
