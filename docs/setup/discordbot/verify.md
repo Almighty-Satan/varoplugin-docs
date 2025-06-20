@@ -1,7 +1,7 @@
 ---
 sidebar_position: 2
 sidebar_label: Verify System
-description: The Discord verify system
+description: How to set up the verify system
 ---
 
 <!---
@@ -23,3 +23,4 @@ description: The Discord verify system
 --->
 
 # Discord Verify
+TODO
