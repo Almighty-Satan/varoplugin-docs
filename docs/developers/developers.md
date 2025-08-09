@@ -32,7 +32,7 @@ First you have to add the Maven repository:
   <url>https://repo.varoplugin.de/releases</url>
 </repository>
 ```
-You can than include Varo Plugin as a dependency. Make sure to replace with `5.x.x` with the correct version.
+You can than include Varo Plugin as a dependency. Make sure to replace `5.x.x` with the correct version.
 ```xml
 <dependency>
   <groupId>de.varoplugin</groupId>
@@ -49,7 +49,7 @@ maven {
     url = uri("https://repo.varoplugin.de/releases")
 }
 ```
-You can than include Varo Plugin as a dependency. Make sure to replace with `5.x.x` with the correct version.
+You can than include Varo Plugin as a dependency. Make sure to replace `5.x.x` with the correct version.
 ```kotlin
 implementation("de.varoplugin:VaroPlugin:5.x.x")
 ```
