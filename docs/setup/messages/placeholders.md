@@ -50,7 +50,7 @@ description: List of all available placeholders and how to use them
 | `padding` | Whitespace (e.g. `<padding:2>` evaluates to two spaces) |
 | `year` | The current year (e.g. `2025`) |
 | `month` | The current month (e.g. `04`) |
-| `day` | The current month (e.g. `01`) |
+| `day` | The current day (e.g. `01`) |
 | `hour` | The current hour in 24-hour format (e.g. `15`) |
 | `minute` | The current minute (e.g. `01`) |
 | `second` | The current second (e.g. `02`) |
