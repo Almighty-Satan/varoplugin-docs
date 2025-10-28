@@ -126,3 +126,10 @@ Examples:
 - `<top-player-name:0:->` will evaluate to the best player's name or `-` if there is no best player.  
 - `<top-player-uuid:1:XXX>` will evaluate to the second-best player's UUID or `XXX` if there is no second-best player
 - `<top-team-kills:3:->` will evaluate to the third-best team's kills or `-` if there is no third-best team
+
+## Placeholder API
+If [Placeholder API](https://github.com/PlaceholderAPI/PlaceholderAPI) is installed, `<papi:expansion_name:placeholder_name>` can be used to access placeholders from other Placeholder API expansions.
+For example `<papi:player:exp>` can be used to show a player's experience.
+
+## SLAMS Built-In Placeholders
+SLAMS also supports [built-in placeholders](https://github.com/Almighty-Satan/SLAMS#built-in-placeholders) like `if_eq` and `add`.
