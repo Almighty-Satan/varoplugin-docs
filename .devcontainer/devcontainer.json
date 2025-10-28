@@ -5,7 +5,7 @@
 	"image": "mcr.microsoft.com/devcontainers/typescript-node:24-trixie",
 
 	"postCreateCommand": "apt update; apt install git-lfs; yarn install",
-	"postStartCommand": "yarn start",
+	"postStartCommand": "yarn start --host 0.0.0.0",
 
 	"remoteUser": "root",
 
