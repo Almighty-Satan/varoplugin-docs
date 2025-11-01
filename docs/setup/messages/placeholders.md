@@ -119,12 +119,12 @@ Team placeholders always require a prefix. This can either be `team-` to get the
 
 ## Top Player/Team Placeholders
 All player/team placeholders can be used with either the prefix `top-player-`/`top-team-` to select the top player/team.
-The first argument is the desired ranking, where `0` means the best player/team.
+The first argument is the desired ranking, where `1` means the best player/team.
 The second argument is returned in case no player/team with the desired ranking is found.
 
 Examples:
-- `<top-player-name:0:->` will evaluate to the best player's name or `-` if there is no best player.  
-- `<top-player-uuid:1:XXX>` will evaluate to the second-best player's UUID or `XXX` if there is no second-best player
+- `<top-player-name:1:->` will evaluate to the best player's name or `-` if there is no best player.  
+- `<top-player-uuid:2:XXX>` will evaluate to the second-best player's UUID or `XXX` if there is no second-best player
 - `<top-team-kills:3:->` will evaluate to the third-best team's kills or `-` if there is no third-best team
 
 ## Placeholder API
