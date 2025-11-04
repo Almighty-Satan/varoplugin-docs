@@ -48,6 +48,8 @@ description: List of all available placeholders and how to use them
 | `heart` | `♥` |
 | `newline` | Newline character |
 | `padding` | Whitespace (e.g. `<padding:2>` evaluates to two spaces) |
+| `pad-left` | Left pad the first argument with the third argument to a size equal to the second argument (e.g. `<pad-left:A:3:B>` evaluates to `BBA`) |
+| `pad-right` | Right pad the first argument with the third argument to a size equal to the second argument (e.g. `<pad-right:A:3:B>` evaluates to `ABB`) |
 | `year` | The current year (e.g. `2025`) |
 | `month` | The current month (e.g. `04`) |
 | `day` | The current day (e.g. `01`) |
