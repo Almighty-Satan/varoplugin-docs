@@ -24,13 +24,23 @@ description: How to configure messages
 
 # Configuring Messages
 Messages can be configured in the message configuration files located in `plugin/Varo/messages`.
-The default language can be configured in the main configuration file. If `language.allowOther` is enabled, the plugin will automatically detect a players locale when they first join and set their language accordingly. A player can manually change their language using the `/language` command.
+The default language can be configured in the main configuration file.
+If `language.allowOther` is enabled, the plugin will automatically detect a players locale when they first join the server and set their language accordingly.
+A player can manually change their language using the `/language` command.
 
 ## Scoreboard
-TODO
+The scoreboard can also be configured in the language configuration files. It consists of a title and a body (called `content` in the configuration files).
+The title and body can be configured independently from each other.  
 
-## Tablist
-TODO
+Due to limitations in the Minecraft scoreboard, no two lines of a frame can be the exact same. This also applies to empty lines.
+To work around this use the `padding` placeholder with different values for empty lines.  
 
-## Action bar
-TODO
+A player can enable/disable their own scoreboard by using `/varo scoreboard` (or `/varo sb` for short).
+
+<!--- ## Tablist
+The tablist header and footer can be configured the same way as the scoreboard.--->
+
+## Action Bar
+A player can enable/disable their own action bar by using `/varo actionbar` (or `/varo ab` for short).
+
+<!--- ## Name Tags --->

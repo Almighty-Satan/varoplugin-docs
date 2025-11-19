@@ -40,12 +40,12 @@ Alternatively, use `/varo stats set sessions <number> <player>` or `/varo stats 
 
 ## My time is incorrect!
 The time is set by the server, not the plugin!
-On Linux, you can easily change the time by using `dpkg-reconfigure tzdata` (tested on Debian 12). If you do not have access to a shell, you need to contact your server provider.
+On Debian or Ubuntu, you can easily change the time by using `dpkg-reconfigure tzdata` (tested on Debian 12). If you do not have access to a shell, you need to contact your server provider.
 
 ## How do I display top players/teams?
 Read [this](./messages/placeholders.md#top-playerteam-placeholders)  
 
-TL;DR Use `<top-player-name:0:->` or `<top-team-name:0:->`
+TL;DR Use `<top-player-name:1:->` or `<top-team-name:1:->`
 
 ## Where can I change a certain settings?
 If you don't know, for example, where to change the prefix, use `/varo config search <word>` to show all entries containing that word.

@@ -22,6 +22,12 @@ sidebar_label: Developers
 --->
 
 # Developers
+The VaroPlugin has an [API](https://github.com/CuukyOfficial/VaroPlugin/tree/master/varo-spigot/src/main/java/de/varoplugin/varo/api)
+which can be used to write extensions or get information about the game for use in your own plugin. To access the API you have to add
+the VaroPlugin as a dependency using either Maven or Gradle.  
+
+Please always make sure to respect the [VaroPlugin license](https://github.com/CuukyOfficial/VaroPlugin/blob/master/LICENSE) when
+writing plugins or other software that depend on the VaroPlugin.
 
 ## Maven
 First you have to add the Maven repository:
