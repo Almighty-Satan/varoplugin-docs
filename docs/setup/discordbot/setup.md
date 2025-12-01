@@ -45,7 +45,7 @@ https://discord.com/api/oauth2/authorize?permissions=8&scope=bot%20applications.
 For example if your application id is `1234`, you get the link `https://discord.com/api/oauth2/authorize?permissions=8&scope=bot%20applications.commands&client_id=1234`
 :::
 
-If you followed the instructions above correctly, you should now see the following dialog asking you to add your bot to a server (Notice: You might have to log into you Discord account first). Select you server and press **Continue**.  
+If you followed the instructions above correctly, you should now see the following dialog asking you to add your bot to a server (Notice: You might have to log into your Discord account first). Select your server and press **Continue**.  
 ![](/img/bot/invite_server.png)  
 
 Click **Authorize**  
