@@ -43,7 +43,7 @@ description: List of all available placeholders and how to use them
 | `project-minute` | The number of minutes since this project was started |
 | `project-second` | The number of seconds since this project was started |
 | `border-size` | The current border size |
-| `border-radius` | The current border radius (`border-size` / 2) |
+| `border-radius` | The current border radius (`border-size` ÷ 2) |
 | `spawn-world` | The world name where the spawn is located |
 | `heart` | `♥` |
 | `newline` | Newline character |
