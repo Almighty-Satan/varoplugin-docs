@@ -51,7 +51,7 @@ If you followed the instructions above correctly, you should now see the followi
 Click **Authorize**  
 ![](/img/bot/invite_authorize.png)  
 
-Your bot should new have joined your server. You can now close this browser tab.  
+Your bot should now have joined your server. You can now close this browser tab.  
 ![](/img/bot/invite_success.png)  
 ![](/img/bot/invite_join.png)  
 
