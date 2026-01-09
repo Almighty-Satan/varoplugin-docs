@@ -109,7 +109,10 @@ Placeholders for online players:
 | `food` | The player's current food level |
 
 ## Team Placeholders
-Team placeholders always require a prefix. This can either be `team-` to get the current player's team, or `top-team-` to get a ranked team (see [Top Player/Team Placeholders](#top-playerteam-placeholders)).
+Team placeholders always require a prefix. This can either be `team-` to get the current player's team, or `top-team-` to get a ranked team (see [Top Player/Team Placeholders](#top-playerteam-placeholders)).  
+
+It is recommended to wrap these placeholders with the `has-team` placeholder when accessing a player's team because players might not belong to any team in which case these placeholders would return `INVALID_CONTEXT`.  
+Example: `<has-team:<team-displayname>:->`  
 
 | Placeholder | Value |
 | --- | --- |
