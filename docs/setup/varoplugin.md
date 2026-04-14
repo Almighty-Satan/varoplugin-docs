@@ -37,7 +37,7 @@ A versatile Spigot/Paper plugin designed for the Varo, ODV, SuRo, and Titan game
 - [Documentation (German)](https://docs.varoplugin.de/)
 - [YouTube Video (German, outdated)](https://www.youtube.com/watch?v=nNsZ7CB1l54) 
 
-# Links
+# Download
 - [SpigotMC](https://varoplugin.de/)
 - [Modrinth](https://modrinth.com/plugin/varo)
 - [Hangar](https://hangar.papermc.io/VaroPlugin/Varo)
