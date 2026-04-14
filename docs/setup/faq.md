@@ -25,22 +25,23 @@ description: Frequently asked questions
 # Frequently Asked Questions
 
 ## How do I revive a player?
-Open the menu with `/varo player <player>` and change the `PlayerState` to `ALIVE`.
-Alternatively, you can use the command `/varo stats set playerstate ALIVE <player>`.
+Players can be revived by using `/varo revive <player>`.
 
-## How do I remove the holograms at spawn?
-Enter `/minecraft:kill @e[type=Armorstand]`.
+## How do I remove the name tags at spawn?
+Spawns can be deleted with `/varo spawns delete <spawn>`.
+If the spawns are already deleted and only the name tags are still there or you reset the plugin without clearing up the spawns first, you need to kill the armor stands manually.
+On Minecraft 1.8.8 you can use `/minecraft:kill @e[type=Armorstand]` to kill all armor stands.
 On other Minecraft versions, the command may vary slightly.
 **Please always make a backup before using `/kill`!**
 
 ## How do I give a player more sessions?
 You can edit the player's stats through the GUI.
 Use `/varo player <player>` and change the number sessions by clicking.
-Alternatively, use `/varo stats set sessions <number> <player>` or `/varo stats set sessions <number> @a` to give sessions to all players.
+Alternatively, use `/varo stats add sessions <number> <player>` or `/varo stats add sessions <number> @a` to give sessions to all players.
 
 ## My time is incorrect!
 The time is set by the server, not the plugin!
-On Debian or Ubuntu, you can easily change the time by using `dpkg-reconfigure tzdata` (tested on Debian 12). If you do not have access to a shell, you need to contact your server provider.
+On Debian or Ubuntu, you can easily change the time by running `dpkg-reconfigure tzdata` in a shell (tested on Debian 12). If you do not have access to a shell, you need to contact your server provider.
 
 ## How do I display top players/teams?
 Read [this](./messages/placeholders.md#top-playerteam-placeholders)  
@@ -71,4 +72,4 @@ Alternatively, you can use the command `/varo stats set playerstate SPECTATOR <p
 In the `main.yml`, there’s a setting called `playTime`. This can be used to change the number of minutes per session.
 
 ## How do I change ore generation?
-This feature is not included in the plugin. For versions below 1.13, you can use [this website](https://minecraft.tools/de/custom.php).
+This feature is not included in the plugin. For versions below 1.13, you can use [this website](https://minecraft.tools/en/custom.php).
