@@ -44,7 +44,7 @@ description: List of all available placeholders and how to use them
 | `project-second` | The number of seconds since this project was started |
 | `border-size` | The current border size |
 | `border-radius` | The current border radius (`border-size` ÷ 2) |
-| `spawn-world` | The world name where the spawn is located |
+| `spawn-world` | The world name where the project spawn is located |
 | `heart` | `♥` |
 | `newline` | Newline character |
 | `padding` | Whitespace (e.g. `<padding:2>` evaluates to two spaces) |
@@ -101,9 +101,9 @@ Placeholders for online players:
 | `z` | The player's z-coordinate |
 | `world` | The world this player is currently located in |
 | `distance-to-border` | The player's distance to the world border |
-| `spawn-x` | The x-coordinate of the spawn point in the world the player is currently in |
-| `spawn-y` | The y-coordinate of the spawn point in the world the player is currently in |
-| `spawn-z` | The z-coordinate of the spawn point in the world the player is currently in |
+| `spawn-x` | The x-coordinate of the world spawn of the world the player is currently located in |
+| `spawn-y` | The y-coordinate of the world spawn of the world the player is currently located in |
+| `spawn-z` | The z-coordinate of the world spawn of the world the player is currently located in |
 | `spawn-distance` | The player's distance to the world spawn |
 | `health` | The player's health |
 | `food` | The player's current food level |
@@ -123,7 +123,7 @@ Example: `<has-team:<team-displayname>:->`
 | `lives` | The number of team-lives this team has left |
 
 ## Top Player/Team Placeholders
-All player/team placeholders can be used with either the prefix `top-player-`/`top-team-` to select the top player/team.
+All player/team placeholders can be used with the prefix `top-player-`/`top-team-` to select the top player/team.
 The first argument is the desired ranking, where `1` means the best player/team.
 The second argument is returned in case no player/team with the desired ranking is found.
 
